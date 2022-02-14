@@ -11,4 +11,3 @@ terminaltables
 pillow
 tqdm
 seaborn
-sentencepiece

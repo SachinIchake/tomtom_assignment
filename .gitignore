@@ -6,4 +6,5 @@ dist
 __pycache__
 .ipynb_checkpoints/
 input/data/train_with_new_features-Copy.csv
-input/
+input/data/train_with_new_features.csv
+input/data/test_pred.csv
