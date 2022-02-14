@@ -2,9 +2,10 @@
 ![Screenshot](resources/architecture.jpg)
 
 ## Problem Statement
-	In this project, we have used various natural language processing techniques and machine learning algorithms to classify fake news articles using Machine Learning and Deep Learning models.
+	In this project, we have used various natural language processing techniques and machine learning algorithms to classify 
+    fake news articles using Machine Learning and Deep Learning models.
 
-###### 	Prerequisites
+###### 	Prerequisites for ML and DL Models
 	Python 3.6
 	Libraries: 
 	    •	Sklearn (scikit-learn)
@@ -44,6 +45,7 @@
 	++--  	data
 	|   	+-- train.csv
 	|   	+-- test.csv
+    ++--  	model
 	+-- src
 	|   +-- config.py
 	|   +-- dataset.py
@@ -52,6 +54,10 @@
 	|   +-- model.py
 	|   +-- predictML.py
 	|   +-- train.py
+    +-- resources
+    |   +-- Accuracy.jpg  
+    |   +-- FeatureImportance.JPG  
+    |   +-- architecture.jpg
 	+-- README.txt
 	+-- requirements.txt
 
@@ -138,15 +144,19 @@
 
 
 ###### Machine Learning
-	Execute below command to train machine learning models [Random Forest, Navie Bayes, XGBOOST, Logistic Regression and saves the trained model to MODEL_PATH_ML directory
-	Python mlalgorithms.py
+	Execute below command to train machine learning models [Random Forest, Navie Bayes, XGBOOST, Logistic Regression and
+    saves the trained model to MODEL_PATH_ML directory Python mlalgorithms.py
 
 ###### Deep Learning
 	Execute below command to train deep learning models [LSTM,BERT] and saves the model to MODEL_PATH directory
 	Python train.py
-	Note: As per EDA, we can use title and text or erhier one to train the model. For now, I have used text for training and inferencing.
+	Note: As per EDA, we can use title and text or erhier one to train the model. 
+    For now, I have used text for training and inferencing.
+
+###ML Model PR Score: 
 ###### Precision XGB: 69.01
 ###### Recall XGB: 63.88
 
-###### BERT Accuracy : 63.52 for 5 epochs 
+###DL Model PR Score:
+###### BERT Accuracy : 99.66 for 5 epochs
 ![Screenshot](resources/Accuracy.jpg)
