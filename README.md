@@ -158,5 +158,10 @@
 ###### Recall XGB: 63.88
 
 ###DL Model PR Score:
+###### Precision XGB: 68.75
+###### Recall XGB: 61.61
+![Screenshot](resources/PRScore.jpg)
+
+
 ###### BERT Accuracy : 99.66 for 5 epochs
 ![Screenshot](resources/Accuracy.jpg)
